@@ -1,0 +1,12 @@
+---
+applications:
+- name: hello-iothub
+  host: training-hello-iothub
+  buildpack: nodejs_buildpack
+  memory: 64M
+  disk_quota: 64M
+  command: node index.js
+services:
+- rabbitmq
+env:
+  OPTIMIZE_MEMORY: true
