@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4",
-    "mqtt": "^2.18.8"
+    "express": "^4.17.1",
+    "mqtt": "^3.0.0"
   }
 }
