@@ -24,7 +24,7 @@ config.mqtt.port = 1883;
 config.mqtt.password = "MODIFY_YOUR_PASSWORD";
 /*****/
 
-config.mqtt.serviceName = "rabbitmq"; // 'p-rabbitmq'
+config.mqtt.serviceName = "p-rabbitmq"; // 'p-rabbitmq'
 
 var vcap_services = {
   "p-rabbitmq": [
