@@ -1,6 +1,6 @@
 ---
 applications:
-- name: hello-iothub-dave-lee-1219
+- name: hello-iothub-demo
   buildpack: nodejs_buildpack
   memory: 128M
   disk_quota: 128M
